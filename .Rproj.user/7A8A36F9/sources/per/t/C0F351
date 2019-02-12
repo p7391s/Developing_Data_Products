@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549972023769.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2679014102",
+    "id" : "C0F351",
+    "lastKnownWriteTime" : 1549956862,
+    "last_content_update" : 1549956862,
+    "path" : "~/Coursera/9/Developing_Data_Products/Shiny_Applcation/server.R",
+    "project_path" : "Shiny_Applcation/server.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

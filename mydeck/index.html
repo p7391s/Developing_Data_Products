@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shiny Application and Reproducible Pitch</title>
+  <meta name="description" content="">
+  <meta name="author" content="ps7391">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2><span style="color:red; font-weight:bold">Developing Data Products</span></h2>
+  <h2><span style="color:blue; font-weight:bold">Shiny Application and Reproducible Pitch</span></h2>
+
+<h3>Display of Dependence of flavonoid content on alcohol content wines</h3>
+
+<p>ps7391</p>
+
+<p>February 11, 2019</p>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2><span style="color:green; font-weight:bold">Assignment</span></h2>
+  <p>Presentation must satisfy the following:</p>
+
+<ol>
+<li>It must be done in Slidify or Rsudio Presenter</li>
+<li>It must be 5 pages</li>
+<li>It must be hosted on github or Rpubs</li>
+<li>It must contained some embedded R code that gets run when slidifying the document</li>
+</ol>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2><span style="color:purple; font-weight:bold">Shiny Application</span></h2>
+  <p>The name of the application is &quot;Display of Dependence of flavonoid content on alcohol content wines&quot;.</p>
+
+<p>This app uses the dataset Wines. This dataset is part of the kohonen package.</p>
+
+<p>This dataset provides various characteristics of wines.</p>
+
+<p>Packages are used for interactivity in the application plotly and ggplot2.</p>
+
+<p>You can download the shiny application for this repository and run it from you R-Studio using <a href="https://github.com/s7391p/">https://github.com/s7391p/</a></p>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2><span style="color:red; font-weight:bold">Instructions to run it</span></h2>
+  <p>Using the slider you choose the number of wines for which the dependence of the amount of alcohol on flavonoids will be displayed. The application shows the number of wines you have selected for selection.
+Graphics made using the package ggplot2.</p>
+
+<pre><code class="r">    g &lt;- ggplot(data, aes(alcohol, flavonoids)) +
+      geom_point(color = &quot;red&quot;)
+    g
+</code></pre>
+
+<p>If in the application you mouse over a point on the graph, then the characteristics of the fault will be displayed thanks to the use of the graph package.</p>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2><span style="color:salmon; font-weight:bold">Example plot from the application</span></h2>
+  <p><img src="assets/fig/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"></p>
+
+<h3><span style="color:yellow; font-weight:bold">Thank you so much everyone</span></h3>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
