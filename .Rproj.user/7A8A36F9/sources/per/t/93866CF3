@@ -1,19 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1549973609534.000,
+    "created" : 1549976714591.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "3789671",
-    "id" : "13855721",
+    "id" : "93866CF3",
     "lastKnownWriteTime" : 1549973350,
     "last_content_update" : 1549973350,
     "path" : "~/Coursera/9/Developing_Data_Products/mydeck/index.Rmd",
     "project_path" : "mydeck/index.Rmd",
     "properties" : {
-        "cursorPosition" : "53,144",
-        "scrollLine" : "42"
+        "cursorPosition" : "76,0",
+        "scrollLine" : "58"
     },
     "relative_order" : 1,
     "source_on_save" : false,
