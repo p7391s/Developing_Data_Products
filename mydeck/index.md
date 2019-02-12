@@ -44,7 +44,7 @@ Packages are used for interactivity in the application plotly and ggplot2.
 
 
 
-You can download the shiny application for this repository and run it from you R-Studio using https://github.com/s7391p/
+You can download the shiny application for this repository and run it from you R-Studio using https://github.com/p7391s/Developing_Data_Products
 
 ---
 
