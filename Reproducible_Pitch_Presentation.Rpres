@@ -3,6 +3,10 @@ Reproducible Pitch Presentation
 author: ps7391
 date: February 11, 2019
 autosize: true
+transition: rotate
+transition-speed: slow
+navigation: slide
+
 ## Shiny Application and Reproducible Pitch
 ### Display of Dependence of flavonoid content on alcohol content wines
 
